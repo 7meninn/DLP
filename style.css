@@ -45,6 +45,11 @@
     height: 65px;
 }
 
+@font-face {
+    font-family: 'Amador';
+    src: url('./fonts/Amador\ W01\ Regular.ttf');
+}
+
 .tabs_btn1 {
     color: aliceblue;
     width: 340px;
@@ -53,13 +58,13 @@
     border: none;
     font-weight: 300;
     font-size: 35px;
-    font-family: "Amador W01 Regular";
+    font-family: "Amador", sans-serif;
     padding: 5px 20px;
 }
 
 @font-face {
     font-family: 'BD-Geminis';
-    src: url('./BD-Geminis.otf');
+    src: url('./fonts/BD-Geminis.otf');
 }
 
 .tabs_btn2 {
